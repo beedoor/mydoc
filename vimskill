@@ -1,0 +1,13 @@
+#多文件哈找
+vimgrep word **
+#多文件替换
+args *java
+argsdo %s/// |update
+#文件查找
+find . -name "*jar" -exec cp {} dest \;
+
+#内容替换
+%s/source/target/g
+#find 查找
+find path  contiditon  conditionValue
+find . ! -name "*JPG" or -type "d"
